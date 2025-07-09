@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deutsche Sprichwörter</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <button id="menu-toggle" aria-label="Menü öffnen">☰</button>
+
+  <nav id="letter-nav" class="hidden">
+    <ul>
+      <li><button id="theme-toggle-menu">🌗 Change Theme</button></li>
+      <li><a href="patchnotes.html">📑 Patch Notes</a></li>
+      <li class="divider"></li>
+    </ul>
+    <ul id="letter-links"></ul>
+  </nav>
+
+  <header>
+    <h1>📜 Deutsche Sprichwörter</h1>
+    <p class="subtitle">Redewendungen von A bis Z.</p>
+  </header>
+
+  <main id="proverb-list" class="proverb-list"></main>
+
+  <footer>
+    <div class="footer-left">© Jan Bauer · 2025 · Alpha 1.1</div>
+    <div class="footer-right">
+      <a href="patchnotes.html">📑 Patch Notes anzeigen</a>
+      <button id="theme-toggle-footer">🌗</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
