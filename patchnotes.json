@@ -1,10 +1,14 @@
 [
   {
-    "version": "Alpha 1.1",
+    "version": "Alpha 1.0",
     "text": "added system default based theme on main page"
   },
   {
-    "version": "Alpha 1.0",
+    "version": "Alpha 1.1",
     "text": "initial release with dark/light toggle and A–Z nav"
+  },
+  {
+    "version": "Alpha 1.2",
+    "text": "added new proverbs and fixed sorting algorithm"
   }
 ]
